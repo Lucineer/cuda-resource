@@ -1,0 +1,8 @@
+[package]
+name = "cuda-resource"
+version = "0.1.0"
+edition = "2021"
+description = "Resource management — allocation, budgets, priorities, sharing, and garbage collection for fleet resources"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
